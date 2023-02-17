@@ -1,0 +1,8 @@
+node_modules
+.vscode
+.htaccess
+vue.config.js
+.env
+/src/.DS_Store
+/src/App.vue
+/deonde_api

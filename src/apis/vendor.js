@@ -1,0 +1,20 @@
+export default {
+    getVendorListing: (data) => window.axios.post('get_nearby_restaurant', data),
+    getVendorDetails: (data) => window.axios.post('get_restaurant_detail', data),
+    getVendorOnOffStatus: (data) => window.axios.post('get_restaurant_on_off', data),
+    checkVendorRadius: (data) => window.axios.post('check_restaurant_radius', data),
+    checkVendorMenuWithPrice: (data) => window.axios.post('check_restaurant_menu_with_price', data),
+    getRestaurantTiming: (data) => window.axios.post('restaurantTiming', data),
+    getRestaurantRating: (data) => window.axios.post('get_restaurant_rating', data),
+    getBannerRestaurant: (data) => window.axios.post('get_banner_retaurant', data),
+    searchRestaurant: (data) => window.axios.post('search_restaurants', data),
+    searchRestaurantItems: (data) => window.axios.post('search_restaurants_item', data),
+    getRestaurantDetailsBySlug: (data) => window.axios.post('get_restaurant_detail_by_slug', data),
+    getRestaurantCategorylisting: (data) => window.axios.post('restaurant_categorylisting', data),
+    getRestaurantMenuCategory: (data) => window.axios.post('restaurant_menu_category', data),
+    getItemsSoldStatus: (data) => window.axios.post('get_items_status', data),
+    MenuWiseItems: (data) => window.axios.post('menuwiseitem', data),
+    getRestaurantMenuWiseCategory: (data) => window.axios.post('restaurant_menu_wise_category', data),
+    searchRestaurantCategoryItem: (data) => window.axios.post('search_restaurant_category_item', data),
+
+}

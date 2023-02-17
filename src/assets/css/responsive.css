@@ -1,0 +1,315 @@
+@media all and (max-width: 991px) {
+    .offers {
+        margin-left: 130px;
+        margin-top: 250px;
+    }
+    .login-main {
+        background: #fff !important;
+    }
+    .review-container {
+        width: auto;
+        padding-top: 85px;
+    }
+    .desktop-logo {
+        top: 22px;
+    }
+    .delivery-pickup-main {
+        margin-left: 25px;
+    }
+    .media-itms,
+    .resturant-item-main {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .vendor-left-main .media {
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .deliveryfees-main .delivery-fees,
+    .deliveryfees-main .delivery-minutes {
+        width: 50%;
+    }
+    .deliveryfees-main {
+        margin: 15px 0 0 0 !important;
+        width: 100%;
+    }
+    .col-md-9 {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .order-fixed-btn .full-btn {
+        position: fixed;
+        bottom: 0px;
+        padding: 15px;
+        width: 100%;
+        background: #fff;
+        left: 0;
+    }
+    .order-fixed-btn,
+    .orderpanel-close-btn {
+        display: block;
+    }
+    .resturant-menu-main {
+        margin-bottom: 75px;
+    }
+    .delivery-address {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0 !important;
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    header .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    .digit-group input {
+        height: 40px;
+    }
+    .deliverytime-main li a {
+        padding: 8px 15px;
+    }
+    .menu-links {
+        margin: 0 !important;
+    }
+    .menu-links .search-cart .cart-menu {
+        padding: 5px;
+        background: var(--primary);
+    }
+    .menu-links .search-cart .cart-menu a span {
+        color: #fff;
+    }
+    .sign-main .sign-top img {
+        height: 60px;
+        width: 60px;
+    }
+    .login-start-main .review-container {
+        padding-top: 20px;
+    }
+    .resturant-data {
+        margin-left: 12px !important;
+    }
+    .delivery-pickup-lnk {
+        display: none;
+    }
+    .desktop-logo {
+        display: none;
+    }
+    .mobi-logo {
+        display: inline-block;
+    }
+    .mobi-logo img {
+        height: 25px;
+        margin-left: 0;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 11px;
+    }
+    .index-header .has-search {
+        margin-right: 10px !important;
+    }
+    .lnk-text {
+        display: none;
+    }
+    .mbl-crt-cart {
+        display: block;
+    }
+    .delivery-pickup-main {
+        margin-left: 0px;
+    }
+    .has-search {
+        width: 70%;
+    }
+    .search-cart a,
+    .search-cart a:hover {
+        margin-left: 0;
+    }
+    .delivery-pickup-main {
+        display: none;
+    }
+    .search-cart {
+        justify-content: space-between;
+    }
+    .resturant-item-main .resturant-item {
+        width: 100%;
+    }
+    .resturant-item img {
+        height: 80px;
+        width: 80px;
+    }
+    .resturant-data h3 {
+        font-size: 20px;
+    }
+    .resturant-main .resturant-item {
+        padding: 10px;
+    }
+    .time-price li,
+    .star-rate span,
+    .tconditions-main label,
+    .tconditions-main a {
+        font-size: 12px;
+    }
+    .time-price {
+        margin-left: 15px;
+    }
+    .time-price li {
+        padding-left: 15px;
+    }
+    .header-main nav {
+        flex-wrap: nowrap;
+        padding: 0;
+    }
+    .delivery-link {
+        font-size: 12px;
+        width: 70%;
+        margin-left: 10px;
+        line-height: 16px;
+    }
+    .navbar-nav a,
+    .filter-title a {
+        font-size: 16px;
+    }
+    .filter-title {
+        margin-top: 20px;
+    }
+    .filter-title h4 {
+        margin-bottom: 0;
+    }
+    .filter-title p,
+    h6,
+    input.h50,
+    .full-btn a,
+    .faqs-start-main h2 button,
+    .full-btn a,
+    .full-btn a:hover {
+        font-size: 14px;
+    }
+    .resturant-item img,
+    .order-item img {
+        height: 60px;
+        width: 60px;
+    }
+    .resturant-item img,
+    .vendor-left-main img,
+    .menuitems-main .media img {
+        height: 70px;
+        width: 70px;
+    }
+    .offer-sec p,
+    .del-address p {
+        font-size: 12px;
+    }
+    .header-top {
+        padding-top: 70px;
+    }
+    .custmization-modal .modal-body {
+        max-height: 75vh;
+    }
+    .main-content section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .menuitems-main .side-bar {
+        padding: 15px 16px 15px 0;
+        margin-bottom: 20px;
+    }
+    .navbar-collapse-left {
+        z-index: 99999;
+        padding-top: 0;
+        width: 100%;
+    }
+    .order-details h4 {
+        padding: 15px;
+    }
+    .fixed-position {
+        position: fixed;
+    }
+    .vendor-details-main .fix-orderdetails .close-btn {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 15px;
+        top: 13px;
+    }
+    .collapse.navbar-collapse-left {
+        right: -100% !important;
+    }
+    .collapse.navbar-collapse-left.show {
+        right: 0 !important;
+        left: 100% !important;
+    }
+    .order-details .item-heading {
+        margin-right: 10px;
+    }
+    .checkout-btn {
+        margin-bottom: 45px;
+    }
+    .navbar-collapse {
+        width: 300px;
+    }
+    .store-btns img {
+        height: auto;
+        width: 100%;
+    }
+    .store-btns {
+        padding: 0 10px 0 10px;
+    }
+    .store-btns a:first-child {
+        margin-right: 10px;
+    }
+    .main-content section {
+        margin-bottom: 30px;
+    }
+    .main-content section .media-heading h4 {
+        margin-bottom: 15px !important;
+    }
+    .resturant-menu-main .col-md-9 {
+        padding-right: 15px !important;
+    }
+    .review-container {
+        padding-top: 75px;
+        padding-bottom: 70px;
+    }
+    .search-box input {
+        height: 50px;
+        font-size: 14px;
+    }
+    .search-box i {
+        font-size: 14px;
+    }
+    .orders-inner-main .billing-data {
+        margin-bottom: 0;
+    }
+    .signup-start-main.header-top {
+        padding-top: 10px;
+    }
+    .lock-body .header-start .header-main::after {
+        content: '';
+        height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 888;
+    }
+    .lock-body {
+        overflow: hidden;
+    }
+}
